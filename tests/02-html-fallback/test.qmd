@@ -1,0 +1,9 @@
+---
+title: "Test: HTML Fallback Rendering"
+format: html
+cmt-author: "Test Author"
+---
+
+Text before. {{< cmt "My comment" highlight="annotated text" >}} Text after.
+
+No highlight: {{< cmt "Plain comment" >}}

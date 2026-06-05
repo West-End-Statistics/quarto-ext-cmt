@@ -1,0 +1,10 @@
+---
+title: "Test: Highlight vs No Highlight"
+format: html
+---
+
+With highlight: {{< cmt "First comment" highlight="highlighted phrase" >}}
+
+Without highlight: {{< cmt "Second comment" >}}
+
+Multiple comments: {{< cmt "Third comment" highlight="third anchor" >}} and {{< cmt "Fourth comment" >}}

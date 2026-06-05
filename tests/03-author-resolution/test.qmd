@@ -1,0 +1,9 @@
+---
+title: "Test: Author Resolution"
+format: html
+cmt-author: "Doc Level Author"
+---
+
+Doc-level author: {{< cmt "Check this" >}}
+
+Per-call override: {{< cmt "Check this too" author="Override Author" >}}

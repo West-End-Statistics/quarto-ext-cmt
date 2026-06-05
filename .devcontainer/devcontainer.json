@@ -1,0 +1,15 @@
+{
+  "name": "${localWorkspaceFolderBasename}",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "target": "base"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "quarto.quarto",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}

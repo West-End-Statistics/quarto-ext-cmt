@@ -1,0 +1,7 @@
+---
+title: "Test: DOCX Native Comment"
+format: docx
+cmt-author: "Test Author"
+---
+
+Text before. {{< cmt "My comment" highlight="annotated text" >}} Text after.

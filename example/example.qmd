@@ -1,0 +1,17 @@
+---
+title: "cmt Extension Example"
+format: html
+cmt-author: "Vitaly Druker"
+---
+
+# Review Comments Example
+
+This document demonstrates the `cmt` Quarto extension.
+
+The primary endpoint {{< cmt "Confirm this is still the agreed endpoint" highlight="reduction in HbA1c" >}} will be analysed using a mixed model for repeated measures.
+
+Alpha is set to {{< cmt "Check with biostatistics" highlight="0.05" >}}.
+
+A per-comment author override: {{< cmt "Review this section" author="Jane Smith" >}}
+
+{{< cmt "This whole section needs updating before submission" >}}
